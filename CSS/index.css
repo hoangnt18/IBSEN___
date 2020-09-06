@@ -1,0 +1,456 @@
+body,
+html {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: rgba(24, 23, 23, 0.938) */
+    box-sizing: border-box;
+  
+}
+
+.clear {
+    clear: both;
+}
+/* header */
+header{
+   
+    background-image: url('../img/sanKhaubackground.jpg');
+    width: 100%;
+    height:775px;
+    opacity: 1;
+    
+}
+
+h2{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 4rem;
+    padding: 80px 50px;
+    text-rendering: optimizeLegibility;
+    color: #b50505;
+    text-shadow: 4px 4px 0px #d5d5d5, 7px 7px 0px rgba(0, 0, 0, 0.2);
+} 
+
+
+
+
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
+
+.IBSENNavbar .navbar-nav .nav-item {
+    margin-left: 40px;
+}
+
+.IBSENNavbar .navbar-nav .nav-item::after {
+    content: "";
+    width: 0;
+    height: 3px;
+    display: block;
+
+    background: white;
+    transition: all 0.5s;
+}
+.IBSENNavbar .navbar-nav .nav-item:hover::after {
+    width: 100%;
+    box-shadow: 0 0 20px 0 white;
+}
+
+.IBSENNavbar .navbar-nav  .active::after {
+    
+    width: 100%;
+}
+
+ header .IBSENNavbar img{
+     width: 30%;
+ }
+
+ /* carousel */
+/* .IBSEN_carousel .IBSEN_carouselContent .carousel-inner .carousel-item img{
+    width: 100% !important;
+
+} */
+
+.IBSEN_carousel .IBSEN_carouselContent .carousel-inner .carousel-item img{
+    width: 100% !important;
+    
+
+}
+
+/* total */
+.total a{
+    text-decoration: none;
+    transition: all 0.5s;
+    color: rgba(0, 0, 0, 0.808);
+}
+
+.total a h4{
+    font-weight: 700;
+}
+
+.total a:hover{
+    color: rgb(185, 15, 15);
+}
+
+
+/* carousel */
+#carousel-item_black i{
+    font-size: 40px;
+    color: white;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    border: solid 3px white;
+
+    position: absolute;
+    top: 45%;
+    left: 45%;
+     
+    opacity: 0;
+    transition: all linear 0.5s;
+}
+
+
+.carousel-inner .active :hover  #carousel-item_black i{
+    opacity: 1;
+}
+
+/* intro_action */
+.intro_action{
+    background: #ffebed;
+    height: 100%;
+    /* margin-top: 100px; */
+    color: red;
+
+}
+
+.intro_action .intro_actionContent .intro_item .intro_icon i{
+    font-size: 45px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    border-radius: 10%;
+    border: 3px solid red;
+    text-align: center;
+    transition: all linear 0.5s;
+    
+}
+
+.intro_action .intro_actionContent .intro_item:hover .intro_icon i{
+    
+   
+    line-height: 100px;
+    box-shadow: 0 0 15px 15px white;
+   
+}
+
+.intro_action h2{
+    padding: 50px 0;
+}
+
+/* action */
+.action h2{
+    padding: 50px 0;
+}
+.action{
+    background-image: radial-gradient(circle, white 0%, #ffebed 100%);
+}
+.action .action_content{
+    opacity: 1;
+}
+
+/* .action .action_content .action_item{
+    margin-top: 20px;
+    
+} */
+
+.action .action_content .action_item .card video{
+    border-radius: 10px;
+}
+
+.action .action_content .action_item .card img{
+    border-radius: 10px;
+    
+    
+}
+
+.action .action_content .action_item .card{
+    border-radius: 10px;
+    transform: scale(0.8);
+    opacity: 0.8;
+    transition: all linear 0.7s;
+    
+    
+}
+.action  a{
+    text-decoration: none;
+    color: rgba(255, 0, 0, 0.753);
+}
+
+.action .action_content p{
+    color: rgba(255, 0, 0, 0.753);
+    
+}
+
+
+.story h2{
+    padding: 50px 0;
+}
+/* partner */
+
+.IBS_partner h2{
+    padding: 50px 0;
+}
+
+.IBS_partner .IBS_partnerImg img{
+    width: 50%;
+}
+/* News */
+
+.news h2{
+    padding: 50px 0;
+}
+
+.news a{
+    text-decoration: none;
+    color:black;
+    transition: all linear 0.5s;
+}
+
+.news a:hover{
+    color: red;
+}
+
+
+.IBS_Contanct h2{
+    padding: 50px 0;
+}
+
+/* footer */
+/* footer */
+footer{
+    padding: 50px 0 0;
+    margin: 50px 0 0;
+    /* background: linear-gradient(to right, rgb(0, 0, 0), rgb(63, 60, 60)); */
+    background-color: #ffebed;
+    color: black;
+}
+
+.footer-button{
+    float: right;
+    margin-top: 5%;
+    height: 35px;
+    width: 90px;
+    text-align: center;
+    color: #ea2227;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border-radius: 10px;
+    border: 1px solid #ea2227;
+    background: #fff;
+    font-family: 'calibri bold';
+  }
+
+  .footer-button:hover{color: white; background: #ea2227;}
+
+.toTop
+{
+    position: fixed;
+    right:30px ;
+    bottom: 50px;
+    font-size: 3rem;
+
+    color: red;
+    border: 1px solid red;
+    
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    text-align: center;
+
+    opacity: 0; 
+    visibility: hidden;
+
+}
+
+footer .footer_left img{
+    width: 100% !important;
+   
+}
+
+/* footer .footer_right{
+    border-bottom: 2px solid white;
+} */
+
+
+
+
+footer   .footer_item1 img{
+    width: 100px;
+    height: 100px;
+
+}
+
+footer ul li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover{
+    color: yellow;
+    text-decoration: none;
+}
+
+footer h3:hover{
+    color: yellow;
+}
+
+
+.cd-top--is-visible 
+{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+@media screen and (min-width:800px) and (max-width:1280px){
+
+
+    /* .intro_action .intro_content #intro_item p{
+        font-size: 11px;
+    } */
+
+}
+
+@media screen and (max-width:768px){
+    header{
+   
+        background-image: url('../img/sanKhaubackground.jpg');
+        width: 100%;
+        height:650px;
+        
+    }
+    .IBS_Carousel .IBS_mainCarousel {
+        margin-top: 30px;
+    }
+
+    header .IBSENNavbar img{
+        width:20%;
+    }
+    header h3{
+        font-size: 15px;
+    }
+    /* intr0_action */
+
+
+    #carousel-item_black i{
+        font-size: 30px;
+        color: white;
+        width: 80px;
+        height: 80px;
+        line-height: 80px;
+        border-radius: 50%;
+        text-align: center;
+        border: solid 3px white;
+    
+        position: absolute;
+        top: 35%;
+        left: 40%;
+         
+        opacity: 0;
+        transition: all linear 0.5s;
+    }
+    .carousel-inner .active :hover  #carousel-item_black i{
+        opacity: 1;
+    }
+
+    .intro_action{
+        background: #ffebed;
+        height: 100%;
+        color: red;
+    }
+
+    .IBS_Contanct  form .form-group textarea{
+        margin-left: 8px !important;
+        width: 97% !important;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:576px){
+    /* header */
+    header{
+   
+        background-image: url('../img/sanKhaubackground.jpg');
+        width: 100%;
+        height:450px;
+        
+    }
+
+    header .IBSENNavbar img{
+        width:10%;
+    }
+
+    /* carousel */
+    .IBS_Carousel .IBS_mainCarousel {
+        margin-top: 30px;
+    }
+
+    header h3{
+        font-size: 14px;
+    }
+
+    #carousel-item_black i{
+        font-size: 20px;
+        color: white;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        text-align: center;
+        border: solid 3px white;
+    
+        position: absolute;
+        top: 35%;
+        left: 45%;
+         
+        opacity: 0;
+        transition: all linear 0.5s;
+    }
+    .carousel-inner .active :hover  #carousel-item_black i{
+        opacity: 1;
+    }
+
+    /* intro */
+
+    /* contanct */
+    .IBS_Contanct  form .form-group textarea{
+        margin-left: 9px !important;
+        width: 95% !important;
+    }
+
+    .IBS_partner {
+        width: 90%;
+    }
+
+    .IBS_partner .IBS_partnerImg img{
+        width: 50%;
+    }
+
+}
+
+
